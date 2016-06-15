@@ -16,7 +16,7 @@ public class EscapePropertiesApplicationTests {
 
 	@Test
 	public void configProps() {
-		assertThat(my.getProp()).isEqualTo("some.value.then.${var}");
+		assertThat(my.getProp()).isEqualTo("G0001.${date:now:yyyyMMdd.HHmmss}");
 	}
 
 }
